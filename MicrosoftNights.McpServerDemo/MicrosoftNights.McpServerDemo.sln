@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicrosoftNights.McpServerDemo", "MicrosoftNights.McpServerDemo\MicrosoftNights.McpServerDemo.csproj", "{47F678F1-CDF6-4186-A5E2-37EF7B4FAABE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicrosoftNights.McpServerDemo.Tools", "MicrosoftNights.McpServerDemo.Tools\MicrosoftNights.McpServerDemo.Tools.csproj", "{1EC5F61D-DDA1-4DB8-A4CD-D0C4493FB502}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{47F678F1-CDF6-4186-A5E2-37EF7B4FAABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47F678F1-CDF6-4186-A5E2-37EF7B4FAABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47F678F1-CDF6-4186-A5E2-37EF7B4FAABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EC5F61D-DDA1-4DB8-A4CD-D0C4493FB502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EC5F61D-DDA1-4DB8-A4CD-D0C4493FB502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EC5F61D-DDA1-4DB8-A4CD-D0C4493FB502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EC5F61D-DDA1-4DB8-A4CD-D0C4493FB502}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
