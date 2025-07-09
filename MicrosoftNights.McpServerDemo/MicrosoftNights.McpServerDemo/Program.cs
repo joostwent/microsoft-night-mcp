@@ -13,6 +13,6 @@ builder.Logging.AddConsole(consoleLogOptions =>
 builder.Services
     .AddMcpServer()
     .WithStdioServerTransport()
-    .WithTools<JokeTool>();
+    .WithTools<HelloWorldTool>();
 
 await builder.Build().RunAsync();
