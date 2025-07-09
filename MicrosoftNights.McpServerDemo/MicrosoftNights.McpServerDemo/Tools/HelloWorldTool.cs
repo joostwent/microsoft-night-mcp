@@ -30,5 +30,14 @@ namespace MicrosoftNights.McpServerDemo.Tools
             if (orderId == 1) return "Canceled";
             return "Unknown";
         }
+
+        [McpServerTool(Name = "CreateOrder"), Description("Creates a new order and returns the order id of the created order")]
+        public static int CreateOrder(
+            [Description("The name of the product")] string productName,
+            [Description("The amount of items")] int amount,
+            [Description("The customer id of the client")] int customerId)
+        {
+            return Random.Shared.Next();
+        }
     }
 }
