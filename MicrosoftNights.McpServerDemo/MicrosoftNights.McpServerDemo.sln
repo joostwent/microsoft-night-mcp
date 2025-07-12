@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicrosoftNights.McpServerDe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicrosoftNights.McpServerDemo.Tools", "MicrosoftNights.McpServerDemo.Tools\MicrosoftNights.McpServerDemo.Tools.csproj", "{1EC5F61D-DDA1-4DB8-A4CD-D0C4493FB502}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicrosoftNights.McpServerDemo.McpServerWebApi", "MicrosoftNights.McpServerDemo.McpServerWebApi\MicrosoftNights.McpServerDemo.McpServerWebApi.csproj", "{7AFBC6F5-029F-4ED6-98E6-68D317BD00A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1EC5F61D-DDA1-4DB8-A4CD-D0C4493FB502}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EC5F61D-DDA1-4DB8-A4CD-D0C4493FB502}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EC5F61D-DDA1-4DB8-A4CD-D0C4493FB502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AFBC6F5-029F-4ED6-98E6-68D317BD00A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AFBC6F5-029F-4ED6-98E6-68D317BD00A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AFBC6F5-029F-4ED6-98E6-68D317BD00A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AFBC6F5-029F-4ED6-98E6-68D317BD00A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
