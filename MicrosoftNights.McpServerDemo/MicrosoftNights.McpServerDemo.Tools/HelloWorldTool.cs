@@ -23,9 +23,18 @@ namespace MicrosoftNights.McpServerDemo.Tools
         public static int CreateOrder(
             [Description("The name of the product")] string productName,
             [Description("The amount of items")] int amount,
-            [Description("The customer id of the client")] int customerId)
+            [Description("The customer id of the client. Get the id from GetCustomerByEmailAddress if only the e-mail address is known")] int customerId)
         {
             return Random.Shared.Next();
+        }
+
+        [McpServerTool(Name = "GetCustomerByEmailAddress"), Description("Returns the customer id that belongs to an e-mail address, or null if not found")]
+        public static int? GetCustomerByEmailAddress(
+            [Description("The e-mail address of the customer")] string emailAddress)
+        {
+            if (emailAddress.Equals("joost.went@capgemini.com", StringComparison.InvariantCultureIgnoreCase)) 
+                return 17;
+            return null;
         }
     }
 }
