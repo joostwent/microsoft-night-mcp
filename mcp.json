@@ -1,0 +1,14 @@
+{
+  "inputs": [],
+  "servers": {
+    "MicrosoftNightMcpServer": {
+      "type": "stdio",
+      "command": "dotnet",
+      "args": [
+        "run",
+        "--project",
+        "${workspaceFolder}/MicrosoftNights.McpServerDemo/MicrosoftNights.McpServerDemo/MicrosoftNights.McpServerDemo.csproj"
+      ]
+    }
+  }
+}
